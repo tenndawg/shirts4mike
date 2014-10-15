@@ -1,0 +1,30 @@
+[10-Oct-2014 11:45:24 America/Denver] PHP Warning:  include(): Failed opening '/home4/ssnickco/public_html/inc/products.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 29
+[10-Oct-2014 11:45:24 America/Denver] PHP Notice:  Undefined variable: products in /home4/ssnickco/public_html/treehouse/index.php on line 33
+[10-Oct-2014 11:45:24 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home4/ssnickco/public_html/treehouse/index.php on line 36
+[10-Oct-2014 11:45:24 America/Denver] PHP Warning:  include(): Failed opening '/home4/ssnickco/public_html/inc/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 50
+[10-Oct-2014 11:46:52 America/Denver] PHP Warning:  include(): Failed opening '/home4/ssnickco/public_html/inc/products.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 29
+[10-Oct-2014 11:46:52 America/Denver] PHP Notice:  Undefined variable: products in /home4/ssnickco/public_html/treehouse/index.php on line 33
+[10-Oct-2014 11:46:52 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home4/ssnickco/public_html/treehouse/index.php on line 36
+[10-Oct-2014 11:46:52 America/Denver] PHP Warning:  include(): Failed opening '/home4/ssnickco/public_html/inc/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 50
+[10-Oct-2014 11:57:02 America/Denver] PHP Warning:  include(): Failed opening '/inc/products.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 29
+[10-Oct-2014 11:57:02 America/Denver] PHP Notice:  Undefined variable: products in /home4/ssnickco/public_html/treehouse/index.php on line 33
+[10-Oct-2014 11:57:02 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home4/ssnickco/public_html/treehouse/index.php on line 36
+[10-Oct-2014 11:57:02 America/Denver] PHP Warning:  include(): Failed opening '/home4/ssnickco/public_html/inc/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 50
+[10-Oct-2014 11:58:36 America/Denver] PHP Notice:  Use of undefined constant ROOT_URL - assumed 'ROOT_URL' in /home4/ssnickco/public_html/treehouse/index.php on line 29
+[10-Oct-2014 11:58:36 America/Denver] PHP Warning:  include(): Failed opening 'ROOT_URLinc/products.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 29
+[10-Oct-2014 11:58:36 America/Denver] PHP Notice:  Undefined variable: products in /home4/ssnickco/public_html/treehouse/index.php on line 33
+[10-Oct-2014 11:58:36 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home4/ssnickco/public_html/treehouse/index.php on line 36
+[10-Oct-2014 11:58:36 America/Denver] PHP Warning:  include(): Failed opening '/home4/ssnickco/public_html/inc/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 50
+[10-Oct-2014 12:00:51 America/Denver] PHP Warning:  include(): Failed opening '/home4/ssnickco/public_html/inc/products.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 29
+[10-Oct-2014 12:00:51 America/Denver] PHP Notice:  Undefined variable: products in /home4/ssnickco/public_html/treehouse/index.php on line 33
+[10-Oct-2014 12:00:51 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home4/ssnickco/public_html/treehouse/index.php on line 36
+[10-Oct-2014 12:00:51 America/Denver] PHP Warning:  include(): Failed opening '/home4/ssnickco/public_html/inc/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/ssnickco/public_html/treehouse/index.php on line 50
+[10-Oct-2014 12:01:48 America/Denver] PHP Notice:  Use of undefined constant BASE_URL - assumed 'BASE_URL' in /home4/ssnickco/public_html/treehouse/inc/header.php on line 5
+[10-Oct-2014 12:09:25 America/Denver] PHP Notice:  Use of undefined constant ROOT_PATH - assumed 'ROOT_PATH' in /home4/ssnickco/public_html/treehouse/inc/header.php on line 5
+[10-Oct-2014 12:09:25 America/Denver] PHP Notice:  Use of undefined constant BASE_URL - assumed 'BASE_URL' in /home4/ssnickco/public_html/treehouse/inc/header.php on line 15
+[10-Oct-2014 12:10:00 America/Denver] PHP Notice:  Use of undefined constant ROOT_PATH - assumed 'ROOT_PATH' in /home4/ssnickco/public_html/treehouse/inc/header.php on line 5
+[10-Oct-2014 12:10:00 America/Denver] PHP Notice:  Use of undefined constant BASE_URL - assumed 'BASE_URL' in /home4/ssnickco/public_html/treehouse/inc/header.php on line 18
+[14-Oct-2014 18:02:04] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home4/ssnickco/public_html/treehouse/inc/products.php on line 10
+[14-Oct-2014 20:16:07] PHP Parse error:  syntax error, unexpected '[' in /home4/ssnickco/public_html/treehouse/inc/products.php on line 21
+[14-Oct-2014 20:26:21] PHP Parse error:  syntax error, unexpected '[' in /home4/ssnickco/public_html/treehouse/inc/products.php on line 21
+[15-Oct-2014 15:53:30] PHP Parse error:  syntax error, unexpected '[' in /home4/ssnickco/public_html/treehouse/inc/products.php on line 21

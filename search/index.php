@@ -12,7 +12,7 @@ include(ROOT_PATH . "inc/header.php"); ?>
 
 			<h1>Search</h1>
 
-			<form>
+			<form method="get" action="./">
 				<input type="text" name="s">
 				<input type="submit" value="Go">
 			</form>

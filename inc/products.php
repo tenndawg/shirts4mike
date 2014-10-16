@@ -24,6 +24,18 @@ function get_products_recent() {
 	return =$ recent;
 }
 
+function get_products_search($s) {
+    $results = array();
+    $all = get_products_all();
+
+    foreach($all as $product) {
+        // TODO: if (there's a match) {
+            $results[] = $product;
+    //      }
+    }
+    return $results;
+}
+
 $products = array();
 $products[101] = array(
     "name" => "Logo Shirt, Red",

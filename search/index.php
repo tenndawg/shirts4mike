@@ -2,6 +2,18 @@
 
 require_once("../inc/config.php");
 
+$search_term = "";
+if (isset($_GET["s"])) {
+	$search_term = trim($_GET["s"]);
+	if ($search_term != "") {
+		require_once(ROOT_PATH . "inc/products.php");
+		$products = get_products_search($search_term);
+		echo "<pre>";
+		var_dump($products);
+		exit;
+	}
+}
+
 $pageTitle = "Search";
 $section = "search";
 include(ROOT_PATH . "inc/header.php"); ?>

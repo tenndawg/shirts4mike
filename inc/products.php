@@ -21,7 +21,7 @@ function get_products_recent() {
 			$recent[] = $product;
 		//  }
 }
-	return = $recent;
+	return $recent;
 }
 
 function get_products_search($s) {

@@ -35,7 +35,7 @@ include(ROOT_PATH . "inc/header.php"); ?>
 						echo get_list_view_html($product);
 					}
 
-					echo '</ul';
+					echo '</ul>';
 
 				}
 

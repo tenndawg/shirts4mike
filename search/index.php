@@ -37,7 +37,7 @@ include(ROOT_PATH . "inc/header.php"); ?>
 
 					echo '</ul>';
 
-				}
+				} ?>
 
 		</div>
 

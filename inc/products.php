@@ -18,7 +18,7 @@ function get_products_recent() {
 	$recent = array();
 	foreach($all as $product) {
 		//if $product is one of the last four shirts{
-			recent[] = $product;
+			$recent[] = $product;
 		//  }
 }
 	return = $recent;

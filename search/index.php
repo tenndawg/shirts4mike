@@ -8,9 +8,6 @@ if (isset($_GET["s"])) {
 	if ($search_term != "") {
 		require_once(ROOT_PATH . "inc/products.php");
 		$products = get_products_search($search_term);
-		echo "<pre>";
-		var_dump($products);
-		exit;
 	}
 }
 
@@ -28,6 +25,19 @@ include(ROOT_PATH . "inc/header.php"); ?>
 				<input type="text" name="s">
 				<input type="submit" value="Go">
 			</form>
+
+			<?php
+
+				if ($search_term != "") {
+
+					echo '<ul class="products">';
+					foreach ($products as $product) {
+						echo get_list_view_html($product);
+					}
+
+					echo '</ul';
+
+				}
 
 		</div>
 

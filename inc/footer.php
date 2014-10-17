@@ -12,7 +12,7 @@
 			</ul>
 
 
-	<div class="section shirts search page">
+	<div class="footer shirts search page">
 
 			<h1>Search</h1>
 

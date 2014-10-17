@@ -1,5 +1,6 @@
 <pre><?php
 
-echo strpos("cookie dough","oo");
+$flavor = "cookie dough";
+echo strpos($flavor,"oo");
 echo "\n";
-echo strpos("cookie dough","dough");
+echo strpos($flavor,"vanilla");

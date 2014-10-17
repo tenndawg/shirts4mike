@@ -14,7 +14,7 @@
 					</ul>
 
 						<form method="get" action="../search/">
-							<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
+							<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?> Search">
 							<input type="submit" value="Go">
 						</form>
 

@@ -749,6 +749,6 @@ form input[type="submit"] {
     display: block;
     width: 1080px;
 }
-.footer.shirts.search.page #name {
+.footer.shirts.search.page input {
     font-size: 24px;
 }

@@ -37,7 +37,7 @@ include(ROOT_PATH . "inc/header.php"); ?>
 
 						echo '</ul>';
 				} else {
-					echo '<p>NO products were found matching that search term.</p>';
+					echo '<p>No products were found matching that search term.</p>';
 				}
 
 				} ?>

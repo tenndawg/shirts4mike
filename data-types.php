@@ -10,3 +10,7 @@ var_dump($fans);
 $flavors = array("Vanilla","Cookie Dough");
 echo "\n";
 var_dump($flavors);
+
+$is_open = true;
+echo "\n";
+var_dump($is_open);

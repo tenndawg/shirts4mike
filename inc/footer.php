@@ -13,7 +13,7 @@
 						<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
 					</ul>
 
-						<form method="get" action="<?php BASE_URL . search/ ?>">
+						<form method="get" action="../search/">
 							<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
 							<input type="submit" value="Go">
 						</form>

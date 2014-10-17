@@ -6,13 +6,12 @@
 
 		<div class="wrapper">
 
-			<ul>		
+	<div class="footer shirts search page">
+
+		<ul>		
 				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
 				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
 			</ul>
-
-
-	<div class="footer shirts search page">
 
 			<h1>Search</h1>
 
@@ -37,10 +36,9 @@
 
 					} ?>
 
+					<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
+
 	</div>
-
-
-			<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
 
 		</div>
 	

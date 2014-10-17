@@ -6,39 +6,37 @@
 
 		<div class="wrapper">
 
-	<div class="footer shirts search page">
+			<div class="footer shirts search page">
 
-		<ul>		
-				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
-				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
-			</ul>
+				<ul>		
+						<li><a href="http://twitter.com/treehouse">Twitter</a></li>
+						<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
+					</ul>
 
-			<h1>Search</h1>
+						<form method="get" action="<?php BASE_URL . search/ ?>">
+							<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
+							<input type="submit" value="Go">
+						</form>
 
-				<form method="get" action="./" color="#a5a5a5">
-					<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
-					<input type="submit" value="Go">
-				</form>
+						<?php
 
-				<?php
+							if ($search_term != "") {
+								if(!empty($products)) {
+									echo '<ul class="products">';
+									foreach ($products as $product) {
+										echo get_list_view_html($product);
+									}
 
-					if ($search_term != "") {
-						if(!empty($products)) {
-							echo '<ul class="products">';
-							foreach ($products as $product) {
-								echo get_list_view_html($product);
+									echo '</ul>';
+							} else {
+								echo '<p>No products were found matching that search term.</p>';
 							}
 
-							echo '</ul>';
-					} else {
-						echo '<p>No products were found matching that search term.</p>';
-					}
+							} ?>
 
-					} ?>
+							<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
 
-					<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
-
-	</div>
+			</div>
 
 		</div>
 	

@@ -16,7 +16,7 @@
 
 			<h1>Search</h1>
 
-				<form method="get" action="./">
+				<form method="get" action="./" color="#a5a5a5">
 					<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
 					<input type="submit" value="Go">
 				</form>

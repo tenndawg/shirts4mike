@@ -12,9 +12,7 @@
 
 <div class="section shirts search page">
 
-		<div class="wrapper">
-
-			<h1>Search</h1>
+		<h1>Search</h1>
 
 			<form method="get" action="./">
 				<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
@@ -36,8 +34,6 @@
 				}
 
 				} ?>
-
-		</div>
 
 	</div>
 

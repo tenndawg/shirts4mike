@@ -677,7 +677,7 @@ body {font-family: 'Oswald', sans-serif; background:#f0eeed; color: #676767;}
 .shirt-details form {
     margin-left: 0;
 }
-form {width: 375px; margin: 34px auto;}
+form {width: 500px; margin: 34px auto;}
 form tr {
     border: 1px solid #CCC;
     background: #f4f3f2;

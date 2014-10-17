@@ -387,7 +387,7 @@ select,
 textarea {
     font-size: 100%; /* 1 */
     margin: 0; /* 2 */
-    width: 500px;
+    width: 400px;
     height: 45px;
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */

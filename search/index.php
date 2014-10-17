@@ -23,7 +23,7 @@ include(ROOT_PATH . "inc/header.php"); ?>
 
 			<form method="get" action="./">
 				<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
-				<input type="submit" value="Go">
+				<input type="submit" value="Go" width="200px">
 			</form>
 
 			<?php

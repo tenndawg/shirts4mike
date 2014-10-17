@@ -29,13 +29,16 @@ include(ROOT_PATH . "inc/header.php"); ?>
 			<?php
 
 				if ($search_term != "") {
+					if(!empty($products)) {
+						echo '<ul class="products">';
+						foreach ($products as $product) {
+							echo get_list_view_html($product);
+						}
 
-					echo '<ul class="products">';
-					foreach ($products as $product) {
-						echo get_list_view_html($product);
-					}
-
-					echo '</ul>';
+						echo '</ul>';
+				} else {
+					echo '<p>NO products were found matching that search term.</p>';
+				}
 
 				} ?>
 

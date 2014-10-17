@@ -9,13 +9,8 @@
 				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
 			</ul>
 
-			<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
 
-		</div>
-	
-	</div>
-
-	<div class="section shirts search page">
+<div class="section shirts search page">
 
 		<div class="wrapper">
 
@@ -45,6 +40,15 @@
 		</div>
 
 	</div>
+
+
+			<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
+
+		</div>
+	
+	</div>
+
+	
 
 </body>
 </html>

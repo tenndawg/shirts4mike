@@ -745,7 +745,8 @@ form input[type="submit"] {
 .footer a:hover, .footer a:active {text-decoration: underline;}
 
 .footer.shirts.search.page {
-    color:#a5a5a5;
+    color: #a5a5a5;
+    display: block;
 }
 .footer.shirts.search.page h1 {
     text-align: center;

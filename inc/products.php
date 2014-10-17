@@ -30,7 +30,7 @@ function get_products_search($s) {
 
     foreach($all as $product) {
         // TODO: if (there's a match) {
-        //6    $results[] = $product;
+            $results[] = $product;
     //      }
     }
     return $results;

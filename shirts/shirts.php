@@ -61,6 +61,12 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 
 				</div>
 
+				<ul class="products">
+					<?php foreach($products as $product) {
+							echo get_list_view_html($product);
+						}
+					?>
+
 			</div>
 
 		</div>

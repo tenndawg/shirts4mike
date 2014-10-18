@@ -43,13 +43,11 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 
 				<div class="wrapper">
 
-					<?php
-
-						$i = 0;
-						while ($i < $total_pages) {
-							$i += 1;
-							echo $i;
-						} ?>
+					<?php $i = 0; ?>
+					<? php while ($i < $total_pages) : ?>
+						<?php	$i += 1; ?>
+						<?php echo $i; ?>
+					<?php endwhile; ?>
 
 				</div>
 

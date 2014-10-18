@@ -49,7 +49,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 						while ($i < $total_pages) {
 							$i += 1;
 							echo $i;
-						}
+						} ?>
 
 				</div>
 

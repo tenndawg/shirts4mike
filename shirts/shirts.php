@@ -11,7 +11,11 @@
 
 	$total_products = get_products_count();
 	$products_per_page = 8;
-	$total_page = ceil($total_products / $products_per_page);
+	$total_pages = ceil($total_products / $products_per_page);
+
+	if ($current_page > $total_pages) {
+		header("Location: ./?pg=" . $total_pages);
+	}
 
 	echo "<pre>";
 	echo "Total Products: ";

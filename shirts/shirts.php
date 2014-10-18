@@ -47,17 +47,19 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 
 				<h1>Mike&rsquo;s Full Catalog of Shirts</h1>
 
-				<?php include(ROOT_PATH . "inc/partial-list-navigation.html.php"); ?>
+				<div class="pagination">
 
-				<ul class="products">
-					<?php
-						foreach($products as $product) {
-							include(ROOT_PATH . "inc/partial-product-list-view.html.php");
-						}
-					?>
-				</ul>
+					<?php $i = 0; ?>
+					<?php while ($i < $total_pages) : ?>
+						<?php $i += 1; ?>
+						<?php if ($i == $current_page) : ?>
 
-				<?php include(ROOT_PATH . "inc/partial-list-navigation.html.php"); ?>
+						<?php else : ?>
+							<a href="./?pg=<?php echo $i; ?>"><?php echo $i; ?></a>
+						<?php endif; ?>
+					<?php endwhile; ?>
+
+				</div>
 
 			</div>
 

@@ -26,7 +26,7 @@
 		header("Location: ./");
 	}
 
-	// determine the start and end shirt for the current page; for example, on
+	// determine the start and end shirt for the current page; for example, on start a fire!!!
 	// page 3 with 8 shirts per page, $start and $end would be 17 and 24
 	$start = (($current_page - 1) * $products_per_page) + 1;
 	$end = $current_page * $products_per_page;

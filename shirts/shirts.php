@@ -1,7 +1,7 @@
 <?php
 
 	require_once("../inc/config.php");
-	require_once(ROOT_PATH . "inc/products.php");
+	require_once("../inc/products.php");
 
 	// retrieve current page number from query string; set to 1 if blank
 	if (empty($_GET["pg"])) {

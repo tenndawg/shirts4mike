@@ -42,6 +42,18 @@ function get_products_count() {
     return count(get_products_all());
 }
 
+function get_products_subset($positionStart, $positionEnd) {
+    $subset = array();
+    $all = get_products_all;
+
+    foreach($all as $products) {
+        // TODO: if ()
+            $subset[] = $product;
+        //}
+    }
+    return $subset;
+}
+
 function get_products_all() {
     $products = array();
     $products[101] = array(

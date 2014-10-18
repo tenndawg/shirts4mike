@@ -41,7 +41,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 
 				<h1>Mike&rsquo;s Full Catalog of Shirts</h1>
 
-				<div class="wrapper">
+				<div class="pagination">
 
 					<?php $i = 0; ?>
 					<? php while ($i < $total_pages) : ?>

@@ -11,6 +11,7 @@
 
 	$total_products = get_products_count();
 	$products_per_page = 8;
+	$total_page = ceil($total_products / $products_per_page);
 
 	echo $current_page;
 	exit;

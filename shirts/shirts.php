@@ -50,8 +50,9 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 				<?php include(ROOT_PATH . "inc/partial-list-navigation.html.php"); ?>
 
 				<ul class="products">
-					<?php foreach($products as $product) {
-							echo get_list_view_html($product);
+					<?php
+						foreach($products as $product) {
+							include(ROOT_PATH . "inc/partial-product-list-view.html.php");
 						}
 					?>
 				</ul>

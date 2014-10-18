@@ -8,6 +8,7 @@
 	} else {
 	$current_page = $_GET["pg"];
 	}
+	$current_page = intval($current_page);
 
 	$total_products = get_products_count();
 	$products_per_page = 8;
@@ -15,6 +16,10 @@
 
 	if ($current_page > $total_pages) {
 		header("Location: ./?pg=" . $total_pages);
+	}
+
+	if ($current_page < 1) {
+		header("Location: ./");
 	}
 
 	echo "<pre>";

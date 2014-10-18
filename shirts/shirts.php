@@ -41,6 +41,18 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 
 				<h1>Mike&rsquo;s Full Catalog of Shirts</h1>
 
+				<div class="wrapper">
+
+					<?php
+
+						$i = 0;
+						while ($i < $total_pages) {
+							$i += 1;
+							echo $i;
+						}
+
+				</div>
+
 				<ul class="products">
 					<?php foreach($products as $product) { 
                   echo get_list_view_html($product);

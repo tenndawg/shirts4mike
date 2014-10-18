@@ -13,6 +13,12 @@
 	$products_per_page = 8;
 	$total_page = ceil($total_products / $products_per_page);
 
+	echo "<pre>";
+	echo "Total Products: ";
+	echo $total_products;
+	echo "\nTotal Pages: ";
+	echo $total_pages;
+	echo "\nCurrent Page: ";
 	echo $current_page;
 	exit;
 

@@ -46,10 +46,12 @@ function get_products_subset($positionStart, $positionEnd) {
     $subset = array();
     $all = get_products_all;
 
+    $position = 0;
     foreach($all as $products) {
-        // TODO: if ()
+        $position += 1;
+        if ($position >= $positionStart && $position <= $positionEnd) {
             $subset[] = $product;
-        //}
+        }
     }
     return $subset;
 }

@@ -7,7 +7,11 @@
 		$current_page = 1;
 	} else {
 	$current_page = $_GET["pg"];
-}
+	}
+
+	$total_products = get_products_count();
+	$products_per_page = 8;
+
 	echo $current_page;
 	exit;
 

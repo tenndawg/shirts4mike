@@ -44,7 +44,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 				<div class="pagination">
 
 					<?php $i = 0; ?>
-					<? php while ($i < $total_pages) : ?>
+					<?php while ($i < $total_pages) : ?>
 						<?php	$i += 1; ?>
 						<a href="./?pg=<?php echo $i; ?>"<?php echo $i; ?>
 					<?php endwhile; ?>

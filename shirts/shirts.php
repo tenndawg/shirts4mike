@@ -28,16 +28,6 @@
 		$end = $total_products;
 	}
 
-	echo "<pre>";
-	echo "Total Products: ";
-	echo $total_products;
-	echo "\nTotal Pages: ";
-	echo $total_pages;
-	echo "\nCurrent Page: ";
-	echo $current_page;
-	echo " (" . $start . "-" . $end . ")";
-	exit;
-
 	$products = get_products_subset($start,$end);
 
 ?><?php 

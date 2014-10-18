@@ -2,6 +2,12 @@
 
 	require_once("../inc/config.php");
 	require_once(ROOT_PATH . "inc/products.php");
+
+	$current_page = $_GET["pg"];
+
+	echo $current_page;
+	exit;
+
 	$products = get_products_all();	
 
  ?><?php 

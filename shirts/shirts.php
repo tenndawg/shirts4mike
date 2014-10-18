@@ -1,7 +1,7 @@
 <?php
 
 	require_once("../inc/config.php");
-	require_once(ROOT_PATH . "inc/products.php");
+	require_once(BASE_URL . "inc/products.php");
 
 	if (empty($_GET["pg"])) {
 		$current_page = 1;

@@ -46,31 +46,17 @@ function get_products_count() {
     return count(get_products_all());
 }
 
-function get_products_subset($positionStart, $positionEnd) {
-    $subset = array();
-    $all = get_products_all();
-
-    $position = 0;
-    foreach($all as $product) {
-        $position += 1;
-        if ($position >= $positionStart && $position <= $positionEnd) {
-            $subset[] = $product;
-        }
-    }
-    return $subset;
-}
-
 function get_products_all() {
     $products = array();
     $products[101] = array(
-        "name" => "Logo Shirt, Red",
-        "img" => "img/shirts/shirt-101.jpg",
-        "price" => 18,
-        "paypal" => "9P7DLECFD4LKE",
+    	"name" => "Logo Shirt, Red",
+    	"img" => "img/shirts/shirt-101.jpg",
+    	"price" => 18,
+    	"paypal" => "9P7DLECFD4LKE",
         "sizes" => array("Small","Medium","Large","X-Large")
     );
     $products[102] = array(
-        "name" => "Mike the Frog Shirt, Black",
+    	"name" => "Mike the Frog Shirt, Black",
         "img" => "img/shirts/shirt-102.jpg",
         "price" => 20,
         "paypal" => "SXKPTHN2EES3J",

@@ -6,7 +6,7 @@
 	if (empty($_GET["pg"])) {
 		$current_page = 1;
 	} else {
-	$current_page = $_GET["pg"];
+		$current_page = $_GET["pg"];
 	}
 	$current_page = intval($current_page);
 
@@ -22,15 +22,25 @@
 		header("Location: ./");
 	}
 
-	$start = (($current_page -1) * $products_per_page) + 1;
+	$start = (($current_page - 1) * $products_per_page) + 1;
 	$end = $current_page * $products_per_page;
 	if ($end > $total_products) {
 		$end = $total_products;
 	}
 
-	$products = get_products_subset($start,$end);	
+	echo "<pre>";
+	echo "Total Products: ";
+	echo $total_products;
+	echo "\nTotal Pages: ";
+	echo $total_pages;
+	echo "\nCurrent Page: ";
+	echo $current_page;
+	echo " (" . $start . "-" . $end . ")";
+	exit;
 
- ?><?php 
+	$products = get_products_subset($start,$end);
+
+?><?php 
 $pageTitle = "Mike's Full Catalog of Shirts";
 $section = "shirts";
 include(ROOT_PATH . 'inc/header.php'); ?>
@@ -41,19 +51,9 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 
 				<h1>Mike&rsquo;s Full Catalog of Shirts</h1>
 
-				<div class="pagination">
-
-					<?php $i = 0; ?>
-					<?php while ($i < $total_pages) : ?>
-						<?php	$i += 1; ?>
-						<a href="./?pg=<?php echo $i; ?>"<?php echo $i; ?>
-					<?php endwhile; ?>
-
-				</div>
-
 				<ul class="products">
 					<?php foreach($products as $product) { 
-                  echo get_list_view_html($product);
+							echo get_list_view_html($product);
 						}
 					?>
 				</ul>

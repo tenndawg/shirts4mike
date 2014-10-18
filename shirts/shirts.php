@@ -22,6 +22,12 @@
 		header("Location: ./");
 	}
 
+	$start = (($current_page -1) * $products_per_page) + 1;
+	$end = $current_page * $products_per_page;
+	if ($end > $total_products) {
+		$end = $total_products;
+	}
+
 	echo "<pre>";
 	echo "Total Products: ";
 	echo $total_products;
@@ -29,9 +35,10 @@
 	echo $total_pages;
 	echo "\nCurrent Page: ";
 	echo $current_page;
+	echo " (" . $start . "-" . $end . ")";
 	exit;
 
-	$products = get_products_all();	
+	$products = get_products_subset($start,$end);	
 
  ?><?php 
 $pageTitle = "Mike's Full Catalog of Shirts";

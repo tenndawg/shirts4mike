@@ -3,8 +3,11 @@
 	require_once("../inc/config.php");
 	require_once(ROOT_PATH . "inc/products.php");
 
+	if (empty($_GET["pg"])) {
+		$current_page = 1;
+	} else {
 	$current_page = $_GET["pg"];
-
+}
 	echo $current_page;
 	exit;
 

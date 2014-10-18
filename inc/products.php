@@ -16,6 +16,8 @@ function get_list_view_html($product) {
 
 function get_products_recent() {
 	$recent = array();
+    $all = get_products_all();
+
 	foreach($all as $product) {
 		//if $product is one of the last four shirts{
 			$recent[] = $product;
@@ -34,6 +36,10 @@ function get_products_search($s) {
           }
     }
     return $results;
+}
+
+function get_products_count() {
+    return count(get_products_all());
 }
 
 function get_products_all() {
@@ -110,6 +116,5 @@ function get_products_all() {
     return $products;
 
 }
-
 
 ?>
